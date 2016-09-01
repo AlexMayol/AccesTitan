@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>AccesTitan - Información sobre la web</title>
+        <link href="style/style.css" rel="stylesheet" type="text/css"/>
+        <script src="code/script.js" type="text/javascript"></script>
+        <meta name="keywords" lang="es" content="accesibilidad, WCAG, evaluación, test, prueba, automática, conformidad, métrica, web" />
+        <meta name="description" lang="es" content="Servicio de evaluación automática de la accesibilidad web. Métrica para calcular la puntuación de las página. Informe detallado de los resultados." />
+    </head>
+    <body>
+        <header>
+            <a href="#main" id="first">Contenido</a>
+			<h1><a href="index.html" id="logo">AccesTitan</a></h1>
+			<p>Estás en: <a href="index.html">Inicio</a> > <a href="info.html">Información</a> </p>
+        </header>
+        <main>
+            <h2>Información sobre AccesTitan</h2>
+			<section>
+				<h3>El código fuente de AccesTitan</h3>
+				<p>Si estás interesado en el desarrollo web y quieres conocer cómo se ha creado esta página, 
+				puedes ver su código fuente y todos los recursos utilizados en ella desde GitHub, a través del siguiente enlace:
+				<a href="https://github.com/AlexMayol/AccesTitan">Código de AccesTitan en GitHub</a>
+				</p>
+			</section>
+            <aside>
+                <h3 id="info">Sobre AccesTitan</h3>
+                <p>Con AccesTitan pueden analizar de manera automática la accesibilidad de cualquier web, pues se trata de una herramienta
+				automatizada y que aplica las directrices de las directrices actuales sobre accesibilidad web, las <strong>WCAG 2.0.</strong>
+				El resultado del análisis que muestra AccesTitan sobre el grado de accesibilidad de la web evaluada es <strong>orientativo</strong>
+				y en ningún caso debe tomarse como definitivo, siendo necesaria la revisión de un experto en accesibilidad web.
+				</p>
+            </aside>
+            <aside>
+                <h3>¿Cómo funciona?</h3>
+                <p>Introduce la URL del sitio que quieras analizar y pulsa el botón de "Analizar". 
+				Una vez finalice el análisis, el resultado será mostrado en una nueva página. Este incluye una nota final orientativa, que puede oscilar 
+				entre 0 y 10, que es el máximo posible. Además, se mostrarán cuatro listas, correspondientes a las pruebas realizadas:
+				<ul>
+					<li>Pruebas superadas: aquellas directrices de accesibilidad que cumple la página.</li>
+					<li>Pruebas no superadas: las directrices de accesibilidad que no cumple la página y es necesario corregir.</li>
+					<li>Comprobación manual: algunas directrices de accesibilidad no se han podido analizar automáticamente y es necesario que sean revisadas por un experto.</li>
+					<li>No aplicables: las directrices que no se aplican a la página que se ha analizado, se listan con fin meramente informativo.</li>
+				</ul>
+				Las comprobaciones automáticas se han realziado empleando el software <a href="http://phantomjs.org/">PhantomJS</a> y una serie de funciones implementadas en JavaScript.
+				</p>
+            </aside>
+			 <aside>
+                <h3>Fallo al analizar</h3>
+                <p>En ocasiones, es posible que la página web que se ha querido a nalizar no ha podido ser abierta por el programa, por lo que
+				el análisis no ha podido llevarse a cabo. En esta situación, le recomendamos que vuelva a intentar realizar
+				el análisis desde la <a href="index.html">página principal</a>.
+				</p>
+            </aside>
+        </main>
+        <footer>
+            <p><strong>AccesTitan 2016</strong>. Desarrollo: Alejandro Mayol Carrión</p>
+            <a href="info.html">Acerca </a>
+            <a href="http://tfg-amc.blogspot.com.es/"> Blog de desarrollo</a>
+        </footer>
+    </body>
+</html>

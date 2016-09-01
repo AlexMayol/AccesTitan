@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>AccesTitan - Analizador automático de la accesibilidad web</title>
+        <link href="style/style.css" rel="stylesheet" type="text/css"/>
+        <script src="code/script.js" type="text/javascript"></script>
+        <meta name="keywords" lang="es" content="accesibilidad, WCAG, evaluación, test, prueba, automática, conformidad, métrica, web" />
+        <meta name="description" lang="es" content="Servicio de evaluación automática de la accesibilidad web. Métrica para calcular la puntuación de las página. Informe detallado de los resultados." />
+    </head>
+    <body>
+        <header>
+            <a href="#main" id="first">Contenido</a>
+			<h1><a href="index.html" id="logo">AccesTitan</a></h1>
+			<p>Estás en: <a href="index.html">Inicio</a></p>
+        </header>
+        <!--<nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html#info">Uso de AccesTitan</a>
+            <a href="info.html">Acerca</a>
+			<p>Estás en: <a href="index.html">Inicio</a></p>
+        </nav>-->
+        <main>
+            <h2>Análisis de la Accesibilidad Web</h2>
+            <section class="mainform">
+                <h3>Introduce la URL de la web</h3>
+                    <form action="results.php" method="post">
+                        <p><input type="text" name="url" title="direction" size="70" autofocus="autofocus" placeholder="http://" required></p>
+						<p><input type="submit" value ="Analizar"></p>
+                    </form>
+            </section>
+            <aside>
+                <h3 id="info">¿Qué es AccesTitan?</h3>
+                <p>Es una página que permite analizar la Accesibilidad Web de cualquier otro sitio web. Es parte de un Trabajo de Fin de Grado del
+				grado en Ingeniería Multimedia de la Universidad de Alicante.
+				</p>
+            </aside>
+            <aside>
+                <h3>¿Cómo funciona?</h3>
+                <p>Introduce la URL del sitio que quieras analizar y pulsa el botón de "Analizar". 
+				Una vez finalice el análisis, el resultado será mostrado en la misma página. 
+				Una nota indicará el grado de accesibilidad de una página, siendo 10 el máximo posible.
+				Si quieres más información, visita nuestra <a href="info.html">página de información</a>.
+				</p>
+            </aside>
+        </main>
+        <footer>
+            <p><strong>AccesTitan 2016</strong>. Desarrollo: Alejandro Mayol Carrión</p>
+            <a href="info.html">Acerca </a>
+            <a href="http://tfg-amc.blogspot.com.es/"> Blog de desarrollo</a>
+        </footer>
+    </body>
+</html>
